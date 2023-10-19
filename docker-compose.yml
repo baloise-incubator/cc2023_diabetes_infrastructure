@@ -30,6 +30,7 @@ services:
       - KEYCLOAK_DATABASE_PORT=5433
       - KEYCLOAK_DATABASE_NAME=postgres
       - KEYCLOAK_DATABASE_USER=postgres
+      - KEYCLOAK_PRODUCTION=true
       - KEYCLOAK_DATABASE_PASSWORD=postgres
       - KEYCLOAK_EXTRA_ARGS=--import-realm
     volumes:
