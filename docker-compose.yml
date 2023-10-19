@@ -33,4 +33,5 @@ services:
       - KEYCLOAK_DATABASE_PASSWORD=postgres
       - KEYCLOAK_EXTRA_ARGS=--import-realm
     volumes:
-      - ${PWD}/default-realm/:/opt/bitnami/keycloak/data/import
+      - ${PWD}/keycloak/default-realm/:/opt/bitnami/keycloak/data/import
+      - ${PWD}/keycloak/theme/:/opt/bitnami/keycloak/themes/

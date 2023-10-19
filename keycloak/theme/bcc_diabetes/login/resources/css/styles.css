@@ -1,0 +1,16 @@
+body {
+   padding: 1em;
+}
+
+div#kc-header::after {
+    content: 'Diabetes Helper';
+    font-size: xx-large;
+}
+
+div#kc-header-wrapper {
+    display: none;
+}
+
+.kc-content {
+    padding: 40%;
+}
